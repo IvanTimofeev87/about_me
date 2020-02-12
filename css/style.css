@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.me {
+    background-image: url("../img/me_background.jpg");
+    background-repeat: no-repeat;
+    height: 900px;
+    background-size: cover;
+}
+
+.slogan {
+    margin: auto;
+    width: 440px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
