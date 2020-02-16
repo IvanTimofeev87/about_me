@@ -1,5 +1,12 @@
 /* outline: 1px solid red;*/
 
+
+/*Общие стили*/
+
+html {
+    font-family: "Kanit", "Arial", sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -10,6 +17,16 @@ main {
     width: 1200px;
     margin: 0 auto;
 }
+
+h1,
+h2,
+h3 {
+    font-family: "Kanit";
+    font-weight: 700;
+}
+
+
+/*Стили для классов*/
 
 .me {
     background-image: url("../img/me_background.jpg");
@@ -24,24 +41,52 @@ main {
     width: 440px;
     color: white;
     font-size: 40px;
-    font-weight: 700;
     margin-bottom: 90px;
     margin-left: 26px;
 }
 
 .skills {
-    background-color: white;
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    height: 600px;
+    background-image: url("../img/skills_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .skills-slogan {
     color: black;
     text-transform: uppercase;
     font-size: 22px;
-    font-weight: 700;
     text-align: center;
     margin-top: 0;
+    margin-bottom: 0;
+    background-color: grey;
 }
 
 .skills-text {
-    color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skills-container1,
+.skills-container2,
+.skills-container3 {
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-1,
+.skills-2,
+.skills-3 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
 }
