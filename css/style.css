@@ -16,6 +16,11 @@ body {
 main {
     width: 1200px;
     margin: 0 auto;
+    background-image: url("../img/main_backgound2.jpg");
+    background-repeat: round;
+    background-size: cover;
+    color: white;
+    box-shadow: 200px 200px 20px 2000px #020202;
 }
 
 h1,
@@ -29,40 +34,38 @@ h3 {
 /*Стили для классов*/
 
 .me {
-    background-image: url("../img/me_background.jpg");
-    background-repeat: no-repeat;
-    height: 700px;
-    background-size: cover;
+    height: 550px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .slogan-text {
-    width: 440px;
-    color: white;
-    font-size: 40px;
-    margin-bottom: 90px;
-    margin-left: 26px;
+    font-size: 44px;
 }
 
 .skills {
     display: flex;
     flex-direction: row;
-    background-color: grey;
     height: 600px;
-    background-image: url("../img/skills_background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-.skills-slogan {
-    color: black;
+.skills:hover {
+    border-color: #c22085;
+    border-style: dotted;
+    border-width: 10px;
+}
+
+.slogan {
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 26px;
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: grey;
+    font-weight: 500;
+    font-style: italic;
+    color: #c22085;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .skills-text {
