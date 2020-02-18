@@ -30,6 +30,12 @@ h3 {
     font-weight: 700;
 }
 
+a {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+
 
 /*Стили для классов*/
 
@@ -49,7 +55,8 @@ h3 {
     height: 600px;
 }
 
-.skills:hover {
+.skills:hover,
+.education:hover {
     border-color: #c22085;
     border-style: dotted;
     border-width: 10px;
@@ -91,5 +98,19 @@ h3 {
     flex-direction: column;
     flex-grow: 1;
     justify-content: space-around;
+    align-items: center;
+}
+
+.education {
+    display: flex;
+    height: 500px;
+}
+
+.certificate-1,
+.certificate-2 {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
 }
