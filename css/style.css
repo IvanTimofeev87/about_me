@@ -56,7 +56,8 @@ a {
 }
 
 .skills:hover,
-.education:hover {
+.education:hover,
+.training:hover {
     border-color: #c22085;
     border-style: dotted;
     border-width: 10px;
@@ -113,4 +114,19 @@ a {
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
+}
+
+.training {
+    display: flex;
+    justify-content: space-around;
+}
+
+.train-header {
+    font-size: 30px;
+}
+
+.link-CW {
+    text-decoration: none;
+    font-size: 32px;
+    font-style: italic;
 }
