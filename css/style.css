@@ -159,6 +159,6 @@ a {
     position: absolute;
     animation-name: show;
     animation-duration: 2s;
-    right: 500px;
-    top: 80px;
+    right: 30%;
+    top: 5%;
 }
