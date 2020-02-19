@@ -156,10 +156,9 @@ a {
 }
 
 .spaceman-div {
-    position: absolute;
+    position: fixed;
     animation-name: show;
     animation-duration: 2s;
-    right: 30%;
-    top: 5%;
-    left: 65%;
+    right: 500px;
+    top: 80px;
 }
