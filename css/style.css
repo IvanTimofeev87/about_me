@@ -36,6 +36,11 @@ a {
     font-weight: 700;
 }
 
+section {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
 
 /*Стили для классов*/
 
@@ -64,6 +69,9 @@ a {
     border-color: #c22085;
     border-style: dotted;
     border-width: 10px;
+    padding: 0;
+    background-color: 255, 255, 255, .3;
+    border-radius: 50px 0;
 }
 
 .slogan {
@@ -135,6 +143,10 @@ a {
     font-size: 32px;
     font-style: italic;
     color: white;
+}
+
+.contacts-header {
+    text-align: center;
 }
 
 .contacts {
