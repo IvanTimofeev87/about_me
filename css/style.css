@@ -162,3 +162,29 @@ a {
     left: 70%;
     top: 2%;
 }
+
+@keyframes shake {
+    0%,
+    100% {
+        transform: translateY( 0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateY(-10px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateY(10px);
+    }
+}
+
+.spaceman-shake {
+    animation-name: shake;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+}
