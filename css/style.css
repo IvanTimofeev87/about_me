@@ -41,8 +41,45 @@ section {
     padding: 10px;
 }
 
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:focus,
+button:active {
+    outline: none;
+    color: #c22085;
+}
+
 
 /*Стили для классов*/
+
+.visually-hidden {
+    display: none;
+}
+
+.rus-main,
+button {
+    display: none;
+}
+
+.rus_button {
+    position: absolute;
+    left: 19%;
+    top: 5%;
+}
+
+.eng_button {
+    position: absolute;
+    left: 21%;
+    top: 5%;
+}
 
 .me {
     height: 550px;
