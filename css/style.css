@@ -45,7 +45,7 @@ button {
     padding: 0;
     border: none;
     font: inherit;
-    color: inherit;
+    color: white;
     background-color: transparent;
     cursor: pointer;
     font-size: 20px;
@@ -61,11 +61,6 @@ button:active {
 /*Стили для классов*/
 
 .visually-hidden {
-    display: none;
-}
-
-.rus-main,
-button {
     display: none;
 }
 
