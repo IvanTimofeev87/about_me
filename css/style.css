@@ -11,16 +11,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
+    background-image: url("../img/main_background4.jpg");
 }
 
 main {
     width: 1200px;
     margin: 0 auto;
-    background-image: url("../img/main_backgound2.jpg");
-    background-repeat: round;
-    background-size: cover;
     color: white;
-    box-shadow: 200px 200px 20px 2000px #020202;
 }
 
 h1,
